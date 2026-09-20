@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>サポート | 通れる？チェッカー</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      padding: 24px 16px 48px;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+      line-height: 1.8;
+      background: #f5f7fb;
+      color: #222;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111418; color: #e6e6e6; }
+      .card { background: #1c2027; }
+      a { color: #7fb3ff; }
+    }
+    main { max-width: 720px; margin: 0 auto; }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 24px 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    }
+    h1 { font-size: 1.6rem; margin: 0 0 4px; }
+    h2 { font-size: 1.15rem; margin: 0 0 12px; border-left: 4px solid #2f7fe0; padding-left: 10px; }
+    .app { color: #2f7fe0; font-weight: bold; }
+    dt { font-weight: bold; margin-top: 12px; }
+    dd { margin: 4px 0 0 0; }
+    ol, ul { padding-left: 1.4em; }
+    footer { text-align: center; font-size: .85rem; opacity: .7; margin-top: 24px; }
+    a { color: #2f7fe0; }
+  </style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>通れる？チェッカー</h1>
+    <p>車いす・ベビーカーの幅と段差の限界を登録し、カメラで測るだけで「通れる／ぎりぎり／無理」を判定するiPhoneアプリです。</p>
+  </div>
+
+  <div class="card">
+    <h2>使い方</h2>
+    <ol>
+      <li>右上の「＋」から、車いす・ベビーカーの<strong>全幅</strong>と<strong>乗り越えられる段差の高さ</strong>を登録します。</li>
+      <li>一覧の行をタップしてカメラ画面を開きます。iPhoneを少し動かして、床や壁を認識させてください。</li>
+      <li>上部で「幅」または「段差」を選び、測りたい場所の端をタップ → もう一方の端をタップします。</li>
+      <li>「通れる」「ぎりぎり」「無理」が表示されます。「測り直す」でやり直せます。</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>よくある質問</h2>
+    <dl>
+      <dt>Q. 計測が始まらない／点が置けない</dt>
+      <dd>床や壁が認識されるまで数秒かかります。明るい場所で、iPhoneをゆっくり動かしてからタップしてください。真っ白な壁や光沢のある床は認識しにくいことがあります。</dd>
+
+      <dt>Q. 測った値が実際と少し違う</dt>
+      <dd>カメラ計測には数cmの誤差が出ることがあります。判定には余裕（幅5cm・段差1cm）を見込んでいますが、安全に関わる場面では実際にメジャーでご確認ください。</dd>
+
+      <dt>Q. 「この端末ではカメラ計測が使えません」と表示される</dt>
+      <dd>計測にはARKit対応のiPhoneが必要です。</dd>
+
+      <dt>Q. 登録した内容を直したい・消したい</dt>
+      <dd>一覧の行を左にスワイプするか長押しすると「編集」「削除」が表示されます。</dd>
+
+      <dt>Q. 登録したデータはどこに保存されますか</dt>
+      <dd>すべて端末の中だけに保存されます。ログインやサーバー通信はありません。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</dd>
+    </dl>
+  </div>
+
+  <div class="card">
+    <h2>お問い合わせ</h2>
+    <p>不具合のご報告やご要望は、下記までお願いします。</p>
+    <p><strong>X（旧Twitter）：</strong><a href="https://x.com/programmer817" target="_blank" rel="noopener">@programmer817</a></p>
+    <p>上記アカウントへのDMまたはリプライでご連絡ください。iPhoneの機種とiOSのバージョンを添えていただけると助かります。</p>
+  </div>
+
+  <footer>
+    <p><a href="privacy.html">プライバシーポリシー</a></p>
+    <p>&copy; 2026 Yukari Morimoto</p>
+  </footer>
+</main>
+</body>
+</html>
